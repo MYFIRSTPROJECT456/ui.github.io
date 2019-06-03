@@ -84,3 +84,76 @@ body{
 .section-1{
     margin-bottom: 8%;
 }
+
+
+/* .section-2 */
+.container-fluid{
+    background-image:url('stack/stack3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading-1{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Righteous';
+    width:80%;
+    color: whitesmoke;
+}
+.section-2 .para{
+    width: 80%;
+    font-family: 'Ubunut';
+    color: whitesmoke;
+    margin-bottom:7%;
+}
+.section-2 .btn{
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
+}
+.card{
+    width: 20rem;
+}
+/* section-3 */
+.section-3{
+    margin-top: 6px;
+}
+.section-3 i{
+    color: #00E8E8;
+}
+.section-3 p{
+    color:rgba(0,0,0,0.59);
+}
+
+/* section-4 */
+.section-4{
+    margin-top: 8%;
+}
+.section-4 .row .col-md-7, .col-md-5{
+    margin: 10% 0%;
+}
+.section-4 a{
+    color: lightseagreen;
+    font-size: 40px;
+    text-decoration: none;
+}
+.section-4 .para-1{
+    color: white;
+    font-family: 'Roboto Condensed';
+    margin-top: 7%;
+    font-size:23px;
+}
+
+/* footer */
+.social i{
+    color: #EF5651;
+    font-size: 20px;
+}
+
+@media screen and(max-width: 768){
+    .section-1 .card{
+        width: 14rem;
+    }
+    .section-4 .col-md-7 img{
+        width: 350px;
+    }
+}
